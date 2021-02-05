@@ -142,8 +142,8 @@ CRISPY_TEMPLATE_PACK = 'bootstrap4'
 MEDIA_URL = '/media/'
 MEDIA_ROOT = os.path.join(BASE_DIR ,'media')
 
-LOGIN_URL = '/quora/home/'
-LOGOUT_URL = '/quora/home/'
+LOGIN_URL = '/quora/quora/home/'
+LOGOUT_URL = '/quora/quora/home/'
 
 LOGIN_REDIRECT_URL = 'quora:ques_list'
 
