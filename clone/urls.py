@@ -19,6 +19,8 @@ from django.conf import settings
 from django.conf.urls.static import static
 from quora import views
 
+
+
 urlpatterns = [
     path('', views.ques_list),
     path('quora/', views.ques_list),
