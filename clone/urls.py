@@ -20,6 +20,7 @@ from django.conf.urls.static import static
 from quora import views
 
 urlpatterns = [
+    path('', views.ques_list),
     path('quora/', views.ques_list),
     path('admin/', admin.site.urls),
     path('quora/quora/', include('quora.urls'), name='quora'),
